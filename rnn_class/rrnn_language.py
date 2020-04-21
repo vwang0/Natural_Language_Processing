@@ -1,11 +1,3 @@
-# https://deeplearningcourses.com/c/deep-learning-recurrent-neural-networks-in-python
-# https://udemy.com/deep-learning-recurrent-neural-networks-in-python
-from __future__ import print_function, division
-from future.utils import iteritems
-from builtins import range
-# Note: you may need to update your version of future
-# sudo pip install -U future
-
 
 import theano
 import theano.tensor as T

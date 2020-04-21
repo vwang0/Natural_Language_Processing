@@ -1,10 +1,3 @@
-# https://deeplearningcourses.com/c/deep-learning-recurrent-neural-networks-in-python
-# https://udemy.com/deep-learning-recurrent-neural-networks-in-python
-from __future__ import print_function, division
-from builtins import range
-# Note: you may need to update your version of future
-# sudo pip install -U future
-
 
 import numpy as np
 import theano
@@ -13,7 +6,6 @@ import matplotlib.pyplot as plt
 
 from util import init_weight, all_parity_pairs
 from sklearn.utils import shuffle
-
 
 class HiddenLayer(object):
     def __init__(self, M1, M2, an_id):

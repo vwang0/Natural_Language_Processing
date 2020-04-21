@@ -1,21 +1,7 @@
-# https://deeplearningcourses.com/c/deep-learning-recurrent-neural-networks-in-python
-# https://udemy.com/deep-learning-recurrent-neural-networks-in-python
-from __future__ import print_function, division
-from builtins import range
-# Note: you may need to update your version of future
-# sudo pip install -U future
-
 
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
-
-# from tensorflow.python.ops import rnn as rnn_module
-
-######## This only works for pre-1.0 versions ##########
-# from tensorflow.python.ops.rnn import rnn as get_rnn_output
-# from tensorflow.python.ops.rnn_cell import BasicRNNCell, GRUCell
-########################################################
 
 ########## This works for TensorFlow v1.0 ##############
 from tensorflow.contrib.rnn import static_rnn as get_rnn_output
