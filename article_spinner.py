@@ -1,7 +1,4 @@
 
-# from __future__ import print_function, division
-# from future.utils import iteritems
-# from builtins import range
 import nltk
 import random
 import numpy as np
