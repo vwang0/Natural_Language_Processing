@@ -8,7 +8,6 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import SVC
 from wordcloud import WordCloud
 
-
 # data from:
 # https://www.kaggle.com/uciml/sms-spam-collection-dataset
 # file contains some invalid chars
