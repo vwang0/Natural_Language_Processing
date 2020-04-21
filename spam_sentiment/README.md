@@ -1,2 +1,4 @@
-Natural language processing projects
+## Natural language processing projects
 
+### spam detection
+### sentiment analysis
