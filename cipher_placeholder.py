@@ -1,16 +1,7 @@
-# https://deeplearningcourses.com/c/data-science-natural-language-processing-in-python
-# https://www.udemy.com/data-science-natural-language-processing-in-python
-
-# Author: http://lazyprogrammer.me
-
-# Get the data from here:
-# https://lazyprogrammer.me/course_files/moby_dick.txt
 
 ### encode a message
 
-# this is a random excerpt from Project Gutenberg's
-# The Adventures of Sherlock Holmes, by Arthur Conan Doyle
-# https://www.gutenberg.org/ebooks/1661
+
 
 original_message = '''I then lounged down the street and found,
 as I expected, that there was a mews in a lane which runs down

@@ -1,12 +1,3 @@
-# https://deeplearningcourses.com/c/data-science-natural-language-processing-in-python
-# https://www.udemy.com/data-science-natural-language-processing-in-python
-
-# Author: http://lazyprogrammer.me
-from __future__ import print_function, division
-from future.utils import iteritems
-from builtins import range
-# Note: you may need to update your version of future
-# sudo pip install -U future
 
 import numpy as np
 import pandas as pd
@@ -47,15 +38,12 @@ Xtest = tfidf.transform(df_test)
 # Xtrain = count_vectorizer.fit_transform(df_train)
 # Xtest = count_vectorizer.transform(df_test)
 
-
-
 # create the model, train it, print scores
 model = MultinomialNB()
 model.fit(Xtrain, Ytrain)
 print("train score:", model.score(Xtrain, Ytrain))
 print("test score:", model.score(Xtest, Ytest))
 # exit()
-
 
 # visualize the data
 def visualize(label):
@@ -70,7 +58,6 @@ def visualize(label):
 
 visualize('spam')
 visualize('ham')
-
 
 # see what we're getting wrong
 X = tfidf.transform(df['data'])

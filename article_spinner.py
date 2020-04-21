@@ -1,9 +1,10 @@
-
+'''
+A simple example of article spinner
+'''
 import nltk
 import random
 import numpy as np
 from bs4 import BeautifulSoup
-
 
 # load the reviews
 # data source http://www.cs.jhu.edu/~mdredze/datasets/sentiment/index2.html

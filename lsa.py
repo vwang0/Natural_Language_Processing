@@ -1,20 +1,9 @@
-# Latent semantic analysis visualization for NLP class, which can be found at:
-# https://deeplearningcourses.com/c/data-science-natural-language-processing-in-python
-# https://www.udemy.com/data-science-natural-language-processing-in-python
-
-# Author: http://lazyprogrammer.me
-from __future__ import print_function, division
-from builtins import range
-# Note: you may need to update your version of future
-# sudo pip install -U future
-
 
 import nltk
 import numpy as np
 import matplotlib.pyplot as plt
 from nltk.stem import WordNetLemmatizer
 from sklearn.decomposition import TruncatedSVD
-
 
 wordnet_lemmatizer = WordNetLemmatizer()
 
@@ -42,7 +31,6 @@ def my_tokenizer(s):
     tokens = [t for t in tokens if not any(c.isdigit() for c in t)] # remove any digits, i.e. "3rd edition"
     return tokens
 
-
 # create a word-to-index map so that we can create our word-frequency vectors later
 # let's also save the tokenized versions so we don't have to tokenize again later
 word_index_map = {}
@@ -67,12 +55,10 @@ for title in titles:
         print(title)
         error_count += 1
 
-
 print("Number of errors parsing file:", error_count, "number of lines in file:", len(titles))
 if error_count == len(titles):
     print("There is no data to do anything with! Quitting...")
     exit()
-
 
 # now let's create our input matrices - just indicator variables for this example - works better than proportions
 def tokens_to_vector(tokens):

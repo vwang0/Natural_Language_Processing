@@ -1,14 +1,3 @@
-# Naive Bayes spam detection for NLP class, which can be found at:
-# https://deeplearningcourses.com/c/data-science-natural-language-processing-in-python
-# https://www.udemy.com/data-science-natural-language-processing-in-python
-# dataset: https://archive.ics.uci.edu/ml/datasets/Spambase
-
-# Author: http://lazyprogrammer.me
-from __future__ import print_function, division
-from builtins import range
-# Note: you may need to update your version of future
-# sudo pip install -U future
-
 
 from sklearn.naive_bayes import MultinomialNB
 import pandas as pd
@@ -33,8 +22,6 @@ Ytest = Y[-100:,]
 model = MultinomialNB()
 model.fit(Xtrain, Ytrain)
 print("Classification rate for NB:", model.score(Xtest, Ytest))
-
-
 
 ##### you can use ANY model! #####
 from sklearn.ensemble import AdaBoostClassifier
