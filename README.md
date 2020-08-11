@@ -18,6 +18,8 @@ sentence.
 
 #### NLP use cases
 
+| **Use case**                   | **Explanation**                                                                                                                                                                                                  |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     Sentiment   analysis       |     You   are the CEO   of a luxury travel company and you want to know   if the happiness of your customers affects your revenue.                                                                               |
 |     Speech   recognition       |     to convert audio into text for further processing.                                                                                                                                                           |
 |     Chatbots                   |     to provide 24/7/365 customer support.                                                                                                                                                                        |
